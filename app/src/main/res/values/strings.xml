@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Test Project</string>
+    <string name="title">Tip Calculator</string>
+    <string name="Content_tip_jar">Tip jar</string>
+    <string name="single_person">Single Person</string>
+    <string name="split_bill">Split Bill</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="total_bill">Total Bill</string>
+    <string name="default_20">(Default 20%)</string>
+    <string name="number_of_people">Number of People</string>
+    <string name="_0_tip_per_person">$0 tip per person</string>
+    <string name="calculate">Calculate</string>
+    <string name="custom_percentage">Custom Percentage</string>
+    <string name="new_total_bill_0">New Total Bill:$0</string>
+
+
+</resources>
