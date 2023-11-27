@@ -10,10 +10,14 @@ import androidx.appcompat.widget.Toolbar;
 
 public class MainActivity2 extends AppCompatActivity {
 
+    Double inputBill;
+    Double finalTotal;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.split_bill_default);
 
         Toolbar toolbar = findViewById(R.id.toolbar3);
         setSupportActionBar(toolbar);

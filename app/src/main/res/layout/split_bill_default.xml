@@ -40,7 +40,7 @@
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/total_bill"
-        android:inputType="number"
+        android:inputType="number|numberDecimal"
         android:minHeight="48dp"
         android:textColorHint="#8D6E63"
         app:layout_constraintBottom_toBottomOf="parent"

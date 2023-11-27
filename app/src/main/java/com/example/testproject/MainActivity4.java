@@ -11,7 +11,7 @@ public class MainActivity4 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main4);
+        setContentView(R.layout.single_bill_custom);
 
         Toolbar toolbar = findViewById(R.id.toolbar8);
         setSupportActionBar(toolbar);
