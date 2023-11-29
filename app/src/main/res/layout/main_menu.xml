@@ -46,8 +46,8 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="171dp"
-        android:layout_height="76dp"
+        android:layout_width="168dp"
+        android:layout_height="71dp"
         android:text="@string/split_bill"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
