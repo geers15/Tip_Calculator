@@ -38,7 +38,7 @@
         tools:ignore="TextSizeCheck" />
 
     <EditText
-        android:id="@+id/editTextNumber4"
+        android:id="@+id/input_bill_single_default"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:autofillHints=""
@@ -55,10 +55,11 @@
         app:layout_constraintVertical_bias="0.464" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/display_tip_single_default"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tip_0"
+        android:textAlignment="center"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -68,10 +69,11 @@
         app:layout_constraintVertical_bias="0.606" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/display_total_single_default"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/new_total_bill_0"
+        android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

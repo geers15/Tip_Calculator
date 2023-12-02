@@ -18,6 +18,7 @@
     <string name="calculate">Calculate</string>
     <string name="custom_percentage">Custom Percentage</string>
     <string name="new_total_bill_0">$0 New Total Bill</string>
+    <string name="new_total_per_person">$0 Total per person</string>
     <string name="custom">Custom</string>
     <string name="tip_hint">Tip %</string>
     <string name="tip_0">$0 Tip</string>
