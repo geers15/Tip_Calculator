@@ -20,6 +20,7 @@ public class MainActivity2 extends AppCompatActivity {
     private TextView totalTextView;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -65,13 +66,14 @@ public class MainActivity2 extends AppCompatActivity {
 
             double total = (inputNumber + result) / person;
 
+
             String formattedResult = String.format(Locale.US, "%.2f", result2);
             String formattedResult1 = String.format(Locale.US, "%.2f", total);
 
 
             // Display the result in the TextView
-            resultTextView.setText("$ " + formattedResult + " Tip per person");
-            totalTextView.setText("$ " + formattedResult1 + " Total per person");
+            resultTextView.setText("$ " + formattedResult + " Tip Per Person");
+            totalTextView.setText("$ " + formattedResult1 + " Total Per Person");
 
         }
     }

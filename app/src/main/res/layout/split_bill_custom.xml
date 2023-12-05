@@ -4,21 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/greey"
     tools:context=".MainActivity5">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/receipt" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/cabin_sketch"
         android:text="@string/split_bill"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.111" />
+        app:layout_constraintVertical_bias="0.12" />
 
     <EditText
         android:id="@+id/input_bill_split_custom"
@@ -26,35 +37,39 @@
         android:layout_height="wrap_content"
         android:autofillHints=""
         android:ems="10"
+        android:fontFamily="@font/cabin_sketch"
         android:hint="@string/total_bill"
         android:inputType="number|numberDecimal"
         android:minHeight="48dp"
         android:textColor="@color/black"
         android:textColorHint="#8D6E63"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.258" />
+        app:layout_constraintVertical_bias="0.304" />
 
     <EditText
         android:id="@+id/input_numOfPeople_split_custom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:autofillHints=""
         android:ems="10"
+        android:fontFamily="@font/cabin_sketch"
         android:hint="@string/number_of_people"
         android:inputType="number"
         android:minHeight="48dp"
         android:textColor="@color/black"
         android:textColorHint="#8D6E63"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.348"
-        android:autofillHints="" />
+        app:layout_constraintVertical_bias="0.374" />
 
     <EditText
         android:id="@+id/input_tip_split_custom"
@@ -62,79 +77,81 @@
         android:layout_height="wrap_content"
         android:autofillHints=""
         android:ems="10"
+        android:fontFamily="@font/cabin_sketch"
         android:hint="@string/tip_hint"
         android:inputType="number|numberDecimal"
         android:minHeight="48dp"
         android:textColor="@color/black"
+        android:textColorHint="#8D6E63"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.446" />
+        app:layout_constraintVertical_bias="0.445" />
 
     <TextView
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="casual"
         android:text="@string/custom"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.164" />
+        app:layout_constraintVertical_bias="0.218" />
 
     <TextView
         android:id="@+id/display_tipPerPerson_split_custom"
-        android:layout_width="233dp"
-        android:layout_height="79dp"
-        android:text="@string/_0_tip_per_person"
+        android:layout_width="236dp"
+        android:layout_height="89dp"
+        android:fontFamily="casual"
         android:textAlignment="center"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.576"
+        app:layout_constraintVertical_bias="0.668"
         tools:ignore="TextSizeCheck" />
 
     <TextView
         android:id="@+id/display_bill_split_custom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/new_total_per_person"
+        android:fontFamily="casual"
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.686" />
+        app:layout_constraintVertical_bias="0.778" />
 
     <Button
         android:id="@+id/button12"
-        android:layout_width="165dp"
-        android:layout_height="75dp"
+        android:layout_width="170dp"
+        android:layout_height="72dp"
         android:text="@string/calculate"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.859" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="12dp"
-        android:background="@color/white"
+        android:background="#787878"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintBottom_toTopOf="@+id/textView14"

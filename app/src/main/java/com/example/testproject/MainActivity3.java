@@ -37,7 +37,7 @@ public class MainActivity3 extends AppCompatActivity {
         resultTextView = findViewById(R.id.display_tip_single_default);
         totalTextView = findViewById(R.id.display_total_single_default);
 
-        Button button=findViewById(R.id.button7);
+        Button button=findViewById(R.id.mex_sind_button_cust);
         button.setOnClickListener(view -> {
             Intent intent=new Intent(MainActivity3.this,MainActivity4.class);
             startActivity(intent);
